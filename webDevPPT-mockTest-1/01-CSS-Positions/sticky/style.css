@@ -1,0 +1,19 @@
+.container {
+  height: 3000px;
+}
+
+.box-1 {
+  height: 135px;
+  width: 135px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  background-color: orange;
+  border-radius: 10px;
+}
+.box-1 {
+  position: sticky;
+  top: 20px;
+  left: 200px;
+}

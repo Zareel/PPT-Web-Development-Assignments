@@ -1,0 +1,23 @@
+body,
+html {
+  height: 100%;
+  font-family: sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.parent {
+  border: 2px solid #dc143c;
+  color: #dc143c;
+  padding: 40px;
+  text-align: center;
+}
+.child {
+  border: 1px solid #0051ff;
+  color: #0051ff;
+  padding: 20px;
+  background-color: #eee;
+  margin-top: 10px;
+}
