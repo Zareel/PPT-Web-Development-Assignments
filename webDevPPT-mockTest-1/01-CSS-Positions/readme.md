@@ -14,7 +14,7 @@ Ans: The position property can help you manipulate the position of an element
 - Static => Every element has a static position by default, so the element will stick to the normal page flow. So if there is a left, right, top, bottom, z-index set there will be no effect on that element
   <br/>
   <br/>
-- fixed => The element is removed from the flow of the element. It can help you position an element anywhere relative to the document, however this value is unaffected by scrolling
+- fixed => The element is removed from the flow of the document. It can help you position an element anywhere relative to the document, however this value is unaffected by scrolling
   ![4](https://github.com/Zareel/PlacementAssignment_ZareelKalam/assets/110910838/c820471f-4962-403b-9ac4-e912db4a7ddd)
   <br/>
   <br/>
