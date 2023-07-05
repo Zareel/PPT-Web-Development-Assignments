@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          screens: {
+            sm: "375px",
+            // => @media (min-width: 640px) { ... }
+
+            md: "640px",
+            // => @media (min-width: 768px) { ... }
+
+            lg: "768px",
+            // => @media (min-width: 1024px) { ... }
+
+            xl: "1024px",
+            // => @media (min-width: 1280px) { ... }
+
+            "2xl": "1280px",
+            // => @media (min-width: 1536px) { ... }
+          },
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+    <title>Assignment02-question10-responsiveLayout</title>
+  </head>
+  <body class="w-full h-full py-10">
+    <header class="w-full h-20 px-2">
+      <div
+        class="max-w-7xl mx-auto h-full flex justify-between items-center gap-2 lg:gap-10"
+      >
+        <div class="w-1/4 h-full bg-blue-400"></div>
+        <div class="w-3/4 h-full bg-gray-400"></div>
+      </div>
+    </header>
+    <section class="w-full h-96 py-10 px-2">
+      <div class="max-w-7xl mx-auto h-full bg-gray-500"></div>
+    </section>
+    <section class="w-full h-auto py-10 px-2">
+      <div
+        class="max-w-7xl mx-auto h-auto flex justify-center flex-wrap gap-12"
+      >
+        <div class="w-96 h-96 bg-blue-300"></div>
+        <div class="w-96 h-96 bg-blue-300"></div>
+        <div class="w-96 h-96 bg-blue-300"></div>
+      </div>
+    </section>
+    <footer class="w-full h-44 py-8 px-2">
+      <div class="max-w-7xl mx-auto h-full bg-gray-300"></div>
+    </footer>
+  </body>
+</html>

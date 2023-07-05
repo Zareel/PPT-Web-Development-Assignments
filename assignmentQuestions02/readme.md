@@ -157,4 +157,10 @@ The position properties determine where the element should be located in the doc
 
 # Q9. Build periodic table
 
+[code](https://github.com/Zareel/PPT-Web-Development-Assignments/tree/zareel/assignmentQuestions02/09periodicTable)
+
 ![3](https://github.com/Zareel/PPT-Web-Development-Assignments/assets/110910838/137ab43d-551d-4221-a0c1-b560338396e1)
+
+# Q10. Build responsive layout for Desktop, mobile and tab as the image given
+
+![5](https://github.com/Zareel/PPT-Web-Development-Assignments/assets/110910838/a6b2487e-0c5b-4259-8261-076a55333e4f)
