@@ -83,6 +83,8 @@ The orientation feature is specified as a keyword value chosen from the list bel
 
 # Q10 Student dashboard
 
+[source code](https://github.com/Zareel/PPT-Web-Development-Assignments/tree/zareel/assignmentQuestions03/10studentDashboard)
+
 ![1](https://github.com/Zareel/PPT-Web-Development-Assignments/assets/110910838/daefa369-a9e9-4801-bf02-c4868b7960f6)
 
 <br>
