@@ -80,3 +80,11 @@ The orientation feature is specified as a keyword value chosen from the list bel
 [source code](https://github.com/Zareel/PPT-Web-Development-Assignments/tree/zareel/assignmentQuestions03/09responsiveFooter)
 ![1](https://github.com/Zareel/PPT-Web-Development-Assignments/assets/110910838/4314c531-ac3d-4ac2-8e32-aafd9114179c)
 ![2](https://github.com/Zareel/PPT-Web-Development-Assignments/assets/110910838/ba32d9bd-0ef9-46a7-b351-2b73beef3881)
+
+# Q10 Student dashboard
+
+![1](https://github.com/Zareel/PPT-Web-Development-Assignments/assets/110910838/daefa369-a9e9-4801-bf02-c4868b7960f6)
+
+<br>
+
+![2](https://github.com/Zareel/PPT-Web-Development-Assignments/assets/110910838/5f59d6f9-0d6e-46bf-9971-817e40b1858f)

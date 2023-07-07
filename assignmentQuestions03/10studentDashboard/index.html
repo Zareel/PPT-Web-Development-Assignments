@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          screens: {
+            sm: "375px",
+            // => @media (min-width: 640px) { ... }
+
+            md: "640px",
+            // => @media (min-width: 768px) { ... }
+
+            lg: "768px",
+            // => @media (min-width: 1024px) { ... }
+
+            xl: "1024px",
+            // => @media (min-width: 1280px) { ... }
+
+            "2xl": "1280px",
+            // => @media (min-width: 1536px) { ... }
+          },
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+    <title>Student Dashboard</title>
+  </head>
+  <body class="w-full h-full bg-[#111111] text-white">
+    <div class="max-w-7xl mx-auto px-6 py-16" style="overflow-x: auto">
+      <table class="w-[80vw]">
+        <tr class="border border-gray-500">
+          <td>Name</td>
+          <td>Email</td>
+          <td>Phone</td>
+        </tr>
+        <tr class="border border-gray-500">
+          <td class="pr-4">Rahul Sharma</td>
+          <td>rahulsharma@example.com</td>
+          <td>9876543210</td>
+        </tr>
+        <tr class="border border-gray-500">
+          <td class="pr-4">Priya Patel</td>
+          <td>Priya.patel@exammple.com</td>
+          <td>876343210</td>
+        </tr>
+        <tr class="border border-gray-500">
+          <td class="pr-4">Amit Sigh</td>
+          <td>Amit.sign@exammple.com</td>
+          <td>5246987125</td>
+        </tr>
+        <tr class="border border-gray-500">
+          <td class="pr-4">Sneha Verma</td>
+          <td>Sneha.verma@exammple.com</td>
+          <td>8564789523</td>
+        </tr>
+        <tr class="border border-gray-500">
+          <td class="pr-4">Mohit Agraval</td>
+          <td>Mohit.agraval@exammple.com</td>
+          <td>9658741236</td>
+        </tr>
+        <tr class="border border-gray-500">
+          <td class="pr-4">Neha Gupta</td>
+          <td>Neha.gupta@exammple.com</td>
+          <td>5642314789</td>
+        </tr>
+        <tr class="border border-gray-500">
+          <td class="pr-4">Rajesh Kumar</td>
+          <td>Rajesh.kumar@exammple.com</td>
+          <td>7896542369</td>
+        </tr>
+        <tr class="border border-gray-500">
+          <td class="pr-4">Anitha Desai</td>
+          <td>Anitha.desai@exammple.com</td>
+          <td>3698521489</td>
+        </tr>
+        <tr class="border border-gray-500">
+          <td class="pr-4">Varun Malhothra</td>
+          <td>Varun.malhothra@exammple.com</td>
+          <td>2156454789</td>
+        </tr>
+        <tr class="border border-gray-500">
+          <td class="pr-4">Pooja Mehta</td>
+          <td>Pooja.mehta@exammple.com</td>
+          <td>2546987532</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
