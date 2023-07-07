@@ -68,9 +68,15 @@ The orientation feature is specified as a keyword value chosen from the list bel
 ![2](https://github.com/Zareel/PlacementAssignment_ZareelKalam/assets/110910838/f5128e1b-d1f5-4bce-b6ad-72f90586e595)
 ![3](https://github.com/Zareel/PlacementAssignment_ZareelKalam/assets/110910838/01beb8de-42bf-408b-a46a-28a327c647d3)
 
-# Q8 Dark mode and light mode
+# Q8 Dark mode and light mode- fully responsive
 
 [source code](https://github.com/Zareel/PPT-Web-Development-Assignments/tree/zareel/assignmentQuestions03/08darkModeAndLightMode)
 
 ![1](https://github.com/Zareel/PPT-Web-Development-Assignments/assets/110910838/06f13c60-fd45-43f0-95fc-9e8ce44ded25)
 ![2](https://github.com/Zareel/PPT-Web-Development-Assignments/assets/110910838/8358d8d7-286d-4a50-9392-4e22a807428a)
+
+# Q9. Footer- fully responsive
+
+[source code]()
+![1](https://github.com/Zareel/PPT-Web-Development-Assignments/assets/110910838/4314c531-ac3d-4ac2-8e32-aafd9114179c)
+![2](https://github.com/Zareel/PPT-Web-Development-Assignments/assets/110910838/ba32d9bd-0ef9-46a7-b351-2b73beef3881)
