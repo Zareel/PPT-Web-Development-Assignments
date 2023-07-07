@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          screens: {
+            sm: "375px",
+            // => @media (min-width: 640px) { ... }
+
+            md: "640px",
+            // => @media (min-width: 768px) { ... }
+
+            lg: "768px",
+            // => @media (min-width: 1024px) { ... }
+
+            xl: "1024px",
+            // => @media (min-width: 1280px) { ... }
+
+            "2xl": "1280px",
+            // => @media (min-width: 1536px) { ... }
+          },
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+    <title>Image Gallery using Grid Layout</title>
+  </head>
+  <body>
+    <div class="w-full h-full py-10">
+      <h1 class="text-center text-3xl font-semibold">Random images</h1>
+      <div
+        class="w-full h-full text-center py-14 flex justify-center items-center"
+      >
+        <div
+          class="max-w-4xl mx-auto grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4"
+        >
+          <img
+            class="w-72 h-72"
+            src="https://images.unsplash.com/photo-1604504260717-fb83639201bb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cm9zZSUyMGZsb3dlcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+            alt=""
+          />
+          <img
+            class="w-72 h-72"
+            src="https://images.unsplash.com/photo-1561374919-039423706ac7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cm9zZSUyMGZsb3dlcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+            alt=""
+          />
+          <img
+            class="w-72 h-72"
+            src="https://images.unsplash.com/photo-1599665395079-a041d943a8d3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHJvc2UlMjBmbG93ZXJzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+            alt=""
+          />
+          <img
+            class="w-72 h-72"
+            src="https://images.unsplash.com/photo-1599345697285-49f79f3bff1e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHJvc2UlMjBmbG93ZXJzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+            alt=""
+          />
+          <img
+            class="w-72 h-72"
+            src="https://images.unsplash.com/photo-1578972497170-bfc780c65f65?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHJvc2UlMjBmbG93ZXJzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+            alt=""
+          />
+          <img
+            class="w-72 h-72"
+            src="https://images.unsplash.com/photo-1562690868-60bbe7293e94?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cm9zZSUyMGZsb3dlcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
