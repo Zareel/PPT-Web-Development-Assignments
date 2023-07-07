@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          screens: {
+            sm: "375px",
+            // => @media (min-width: 640px) { ... }
+
+            md: "640px",
+            // => @media (min-width: 768px) { ... }
+
+            lg: "768px",
+            // => @media (min-width: 1024px) { ... }
+
+            xl: "1024px",
+            // => @media (min-width: 1280px) { ... }
+
+            "2xl": "1280px",
+            // => @media (min-width: 1536px) { ... }
+          },
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+    <title>The OneCard Website Clone</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="w-full h-20 bg-gray-800 text-white py-8">
+      <nav
+        class="max-w-7xl mx-auto h-full flex justify-between items-center px-4 lg:px-0 h-full"
+      >
+        <div>
+          <h1 class="text-2xl tracking-wide text-blue-600 font-bold">
+            LO <br />GO
+          </h1>
+        </div>
+
+        <ul class="hidden lg:flex gap-8 text-[18px] font-semibold">
+          <li class="cursor-pointer">Home</li>
+          <li class="cursor-pointer">Blog</li>
+          <li class="cursor-pointer">About</li>
+          <li class="cursor-pointer">Contact</li>
+        </ul>
+        <button
+          class="hidden lg:flex text-md font-semibold cursor-pointer bg-blue-400 px-4 py-1 text-white rounded-sm hover:bg-blue-600"
+        >
+          Apply Now
+        </button>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-6 h-6 flex lg:hidden"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+          />
+        </svg>
+      </nav>
+    </header>
+    <main class="w-full h-full py-24">
+      <section class="max-w-7xl mx-auto h-full px-4 lg:px-0 flex flex-col-reverse lg:flex-row justify-center items-center">
+        <!-- left -->
+        <div class="w-1/2 flex flex-col justify-center items-start gap-6 py-10 lg:py-0">
+          <h2 class="text-3xl font-semibold">Say Hi To</h2>
+          <h1 class="text-5xl text-blue-500 font-semibold ">One Card</h1>
+          <h3 class="text-lg text-blue-500 font-semibold">Co-branded Card Issues :</h3>
+          <img class="w-96" src="./images/brands.png" alt="" />
+          <p class="text-lg tracking-wide">
+            India's first metal credit card. But with full stack tech. <br> Backed by
+            the principles of simplicyty, transparency and <br> giving back control to
+            the user
+          </p>
+          <img class="w-56" src="./images//herobutton.svg" alt="" />
+        </div>
+        <!-- right -->
+        <div class="w-1\2 flex items-center justify-center px-10">
+         <video class="w-[400px] h-[450px] rounded-md" controls autoplay loop src="./images/vedio1.mp4">
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
