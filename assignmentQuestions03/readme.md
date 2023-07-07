@@ -54,11 +54,15 @@ The orientation feature is specified as a keyword value chosen from the list bel
 
 # Q6. The OneCard website clone- fully responsive
 
+[source code](https://github.com/Zareel/PPT-Web-Development-Assignments/tree/zareel/assignmentQuestions03/06oneCardWebsiteClone)
+
 ![1](https://github.com/Zareel/PlacementAssignment_ZareelKalam/assets/110910838/74fbb102-2831-42fb-8188-43b48e765eba)
 ![2](https://github.com/Zareel/PlacementAssignment_ZareelKalam/assets/110910838/c18327e3-a750-45d0-9c9d-387e80813f39)
 ![3](https://github.com/Zareel/PlacementAssignment_ZareelKalam/assets/110910838/920f848e-a198-4095-b5ae-80320e59d9e9)
 
 # Q7. The image gallery using grid layout- fully responsive
+
+[source code](https://github.com/Zareel/PPT-Web-Development-Assignments/tree/zareel/assignmentQuestions03/07imageGallery)
 
 ![1](https://github.com/Zareel/PlacementAssignment_ZareelKalam/assets/110910838/725ba45b-876a-4987-8007-f113de881225)
 ![2](https://github.com/Zareel/PlacementAssignment_ZareelKalam/assets/110910838/f5128e1b-d1f5-4bce-b6ad-72f90586e595)
