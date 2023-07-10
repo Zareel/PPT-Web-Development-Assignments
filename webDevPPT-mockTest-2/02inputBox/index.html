@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+  </head>
+  <body
+    class="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-black"
+  >
+    <div
+      class="w-full h-screen flex flex-col justify-center items-center gap-6"
+    >
+      <input
+        id="input"
+        class="w-[30%] px-2 py-2 rounded-sm border-none outline-none text-lg tracking-wide"
+        type="text"
+        placeholder="type here..."
+      />
+      <button
+        id="submit"
+        type="submit"
+        class="px-8 py-2 rounded-md font-semibold bg-purple-500 text-white"
+      >
+        Submit
+      </button>
+      <h1
+        id="output"
+        class="w-[30%] text-black text-lg tracking-wide font-semibold"
+      ></h1>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
