@@ -2,7 +2,3 @@
 
 ![1](https://github.com/Zareel/DOM-Assingments-fsjs2.0/assets/110910838/fa6c720d-3a1f-4811-852e-b822c9252999)
 ![2](https://github.com/Zareel/DOM-Assingments-fsjs2.0/assets/110910838/c3577ad1-ee9d-45d1-aefc-db4e2e131d8c)
-
-## 02 Create a app where you have an input box and whenever a user types something in the input box and hits submit it should be added on the webpage below the input box
-
-![1](https://github.com/Zareel/PPT-Web-Development-Assignments/assets/110910838/0d03b594-cb47-4ce2-a4b8-a619ba4bfab0)
