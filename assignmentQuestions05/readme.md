@@ -1,4 +1,4 @@
-## What is the difference between Synchronous and Asynchronous?
+## 1. What is the difference between Synchronous and Asynchronous?
 
 - Synchronous: means to be in sequence. Every statement of the code gets executed one by one. The next line of code will not be executed untill the current line of code completes its execution
 
@@ -32,7 +32,7 @@ Third
 Second
 ```
 
-## What are web APIs
+## 2. What are web APIs
 
 - API stands for Application Programming Interface.
 - Web API is an application programming interface for the web.
