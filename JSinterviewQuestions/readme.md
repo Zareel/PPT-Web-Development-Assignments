@@ -1,10 +1,57 @@
-What is Primitive data type in JS?
-What is difference between primitive and non-primitive data types?
-What is difference between null and undefined data types?
-What is difference between == and === operators?
-Explain the implicit type coercion in javascript.
-What is a NaN property in JS?
-Explain pass by value and pass by reference in JavaScript.
+# Q1. What is Primitive and Non-primitive data type in JS? or What is difference between primitive and non-primitive data types? or What is difference between null and undefined data types?
+
+Ans: Every variable has a datatype that tells what kind of data is being stored in the variable. There are two types of data types in JavaScript
+
+- Primitive datatypes : The in-built data types provided by Javascript is known as primitive data types
+  eg :
+
+1. number: numbers
+2. string: sequence of characters enclosed in single or double quotes
+3. undefined: value is not assinged
+4. boolean: true or false
+5. null: represents the intensional absence of any object value
+6. bigint: represents numeric value which are too big to be represented by number
+7. symbol: symbol data type is used to create unique objects
+
+- Non Primitive datatypes: The datatypes that are derived from primitive data types are known as non-primitive data types
+  eg:
+
+1. object: enclosed in curly braces and they are in the form of key value pairs
+2. array: collection of related data enclosed in the square brackets and seperated by comma
+
+<br>
+
+# Q2. What is difference between == and === operators?
+
+- `==` is also known as loose equality operator which is mainly used to compare two values in both sides and then return true or false.
+- `===` is also known as strict equality operator. It compares both the values and datatypes
+
+<br>
+
+# Q3. Explain the implicit type coercion in javascript.
+
+- implicit type coercion: it is the automatic or implicit conversion of values from one data type to another data type. eg: `==` operator compares two values only after converting them in to a common type which is known as `type coersion`. In other words `type coersion` means
+
+<br>
+
+# Q4. What is a NaN property in JS?
+
+Ans: The NaN global property is a value representing Not-A-Number
+The operations that return NaN
+
+- Failed number conversion
+- Math operation where the result is not a real number
+- Where the invalid value is to be represented as a number
+
+# Q5. Explain pass by value and pass by reference in JavaScript.
+
+In JavaScript when a function is called, the arguments can be passed in two ways, either
+
+- pass by value or
+- pass by reference(address)
+  Primitive datatypes are passed by value and non primitive data types are passed by reference
+  Primitive values are stored on the stack and non primitive values are stored in heap
+
 What do you mean by strict mode in JavaScript?
 What is Hoisting?
 What is Temporal Dead Zone?
