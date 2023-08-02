@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>CRUD Basics</title>
+  </head>
+  <body>
+    <div class="w-full h-screen bg-gray-300">
+      <div class="max-w-7xl mx-auto px-4 py-10 flex gap-56">
+        <div class="left">
+          <h1 class="text-4xl font-semibold pb-6">CRUD Basics</h1>
+          <form id="form" action="">
+            <label class="" for="input">Write your post here</label>
+            <br />
+            <br />
+            <textarea
+              class="outline-none px-2 py-2 tracking-wide"
+              name=""
+              id="input"
+              cols="30"
+              rows="10"
+            ></textarea>
+            <div class="text-red-500" id="msg"></div>
+            <br /><br />
+            <button
+              type="submit"
+              class="px-6 py-2 bg-gray-600 text-white rounded-md tracking-wide"
+            >
+              Post
+            </button>
+          </form>
+        </div>
+        <div class="right">
+          <h2 class="text-3xl font-semibold py-12">Your Post Here</h2>
+          <div id="posts">
+            <div class="flex gap-56">
+              <p>Post 1</p>
+              <span class="flex gap-6 cursor-pointer">
+                <i
+                  onclick="editPost(this)"
+                  id="update"
+                  class="fa-solid fa-pen-to-square"
+                ></i>
+                <i
+                  onclick="deletePost(this)"
+                  id="delete"
+                  class="fa-solid fa-trash"
+                ></i>
+              </span>
+            </div>
+            <div class="flex gap-56">
+              <p>Post 2</p>
+              <span class="flex gap-6 cursor-pointer">
+                <i
+                  onclick="editPost(this)"
+                  id="update"
+                  class="fa-solid fa-pen-to-square"
+                ></i>
+                <i
+                  onclick="deletePost(this)"
+                  id="delete"
+                  class="fa-solid fa-trash"
+                ></i>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
