@@ -83,3 +83,25 @@ Life cycle of a react component can be defined as a series of methods that are i
 ![1](https://github.com/Zareel/PPT-Web-Development-Assignments/assets/110910838/0688d191-caf3-455a-b011-b60057186fcc)
 
 https://zareel.github.io/ReactJS-CounterApp/
+
+## Q.9 Develop a GitHub User Finder web application using React
+
+![1 (2)](https://github.com/Zareel/PPT-Web-Development-Assignments/assets/110910838/4ec3ae7e-2484-4b40-ae4d-769e76433807)
+
+## Q.10 Develop a simple website using React, fetch and display products from the "https://fakestoreapi.com/products" API
+
+![2](https://github.com/Zareel/PPT-Web-Development-Assignments/assets/110910838/b7c321fa-d8bd-4afd-b67a-305ee77d4f28)
+
+<br>
+<br>
+
+![3](https://github.com/Zareel/PPT-Web-Development-Assignments/assets/110910838/1a993281-cbad-4270-bfee-3a2fe29a48cc)
+
+<br>
+<br>
+
+![4](https://github.com/Zareel/PPT-Web-Development-Assignments/assets/110910838/f3a009f8-02f5-43da-ba0c-fa732e5da69d)
+
+<br>
+<br>
+![1](https://github.com/Zareel/PPT-Web-Development-Assignments/assets/110910838/7bec5326-4c8b-4689-bf5f-3142b578b1c7)
