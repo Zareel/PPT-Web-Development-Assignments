@@ -90,6 +90,8 @@ https://zareel.github.io/ReactJS-CounterApp/
 
 ## Q.10 Develop a simple website using React, fetch and display products from the "https://fakestoreapi.com/products" API
 
+[github](https://github.com/Zareel/PPT-Web-Development-Assignments/tree/zareel/assignmentQuestions08/10fake_api)
+
 ![2](https://github.com/Zareel/PPT-Web-Development-Assignments/assets/110910838/b7c321fa-d8bd-4afd-b67a-305ee77d4f28)
 
 <br>
@@ -104,4 +106,3 @@ https://zareel.github.io/ReactJS-CounterApp/
 
 <br>
 <br>
-![1](https://github.com/Zareel/PPT-Web-Development-Assignments/assets/110910838/7bec5326-4c8b-4689-bf5f-3142b578b1c7)
