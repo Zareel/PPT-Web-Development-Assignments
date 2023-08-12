@@ -9,7 +9,7 @@ Rules for using hooks
 
 # Q.2 Explain useState Hook & what can you achieve with it?
 
-Ans: useState() hook allows us to track state in functional component. State generally refers to data or properties that need to be tracking in an application
+Ans: useState() hook allows us to track state in functional component. State generally refers to data or properties that need to be tracked in an application
 To use the useState() hook, we first need to import it into our component
 
 ```jsx
@@ -114,8 +114,29 @@ const SearchContext = () => {
 export default SearchContext;
 ```
 
-Q.4 What is the significance of the "key" prop in React lists, and why is it important to use it correctly?
+# Q.4 What is the significance of the "key" prop in React lists, and why is it important to use it correctly?
+
 Ans: In react the `key` prop is used to uniquely identify elements in a list of components. It is important to provide a key prop for each element in a list, because it allows react to optimize rendering by identifying which items have changed and only updating those items rather than re-rendering the entire list. By assigning unique and stable keys to list items we enable react to efficiently track and update components, resulting in improved rendering and subsequent updates
+
+# Q.5 What is the significance of using "setState" instead of modifying state directly in React
+
+Ans: In react we should use setState when you modify some values because it notifies react that your state has been modified that enable react to check if the state has changed from previous render. This triggers a change in the component's state and tells react that the component and its children all need to be re-rendered with the newly updated state. The main reason for using setState is it's asynchronous execution, which boosts performance by avoiding unnecessary rerenders
+
+# Q.5 Explain the concept of react fragments and when you should use them.
+
+Ans: React fragments allow you to wrap or group multiple elements without having to add an extra node to the DOM. This can be useful when rendering multiple child element/ components in a single parent component
+
+# Q.5 How do you handle conditional rendering in React?
+
+Ans: By using
+
+- if - else statement
+- switch statement
+- element variable
+- ternary operators
+- using logica &&
+- using Immediately invoikng function expressions(IIFEs)
+- using enhanced JSX libraries
 
 Q. 10 Build Calculator Web app using React, See below image for reference
 
