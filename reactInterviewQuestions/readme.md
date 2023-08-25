@@ -1,7 +1,39 @@
-What is react?
+# 1. What is react?
+
+React is a JavaScript library, developed and maintained by Facebook team. It's a tool for building UI compnents
+
+# 2. What is JSX?
+
+JSX stands for JavaScript XML. JSX is an XML/HTML like extension to JavaScript.
+
+# 3. What is webpack and babel?
+
+Webpack is a static module bundler. Webpack goes through your package and creates what it calls a dependency graph which consist of variour modules which your web app would require to function as expected
+Babel is a JavaScript compiler that can translate markup or programming languages into JavaScript. React uses Babel to convert JSX into JavaScript.
+
+# 4. What is reactDOM render?
+
+The method ReactDom.render() is used to render (display) HTML elements:
+
+# 5. What is jsx expressions
+
+Expressions can be used in JSX by wrapping them in curly {} braces.
+
+# 6. What is react components
+
+React components are independent and reusable bits of code. They serve the same purpose of JavaScript functions but work in isolation and return HTML.
+
+# 7. Immutable means>
+
+Cannot be changed
+
+# 8. what is root node or root element?
+
+# React applications are usually built around a single HTML element. React developers often call this the root node (root element):
+
 What are the advantages of using react?
 What are the limitations of react?
-What is JSX?
+
 What are the ways to create a new react app?
 What is NPM?
 What is the difference between npm and yarn? Which one to use and why?
@@ -34,7 +66,7 @@ What is difference between context hook and redux toolkit? Why we should prefer 
 What is the importance of react dev tool?
 What is the importance of redux dev tool?’
 What is SPA?
-What is webpack and babel?
+
 What is a CDN and how to use CDN for react?
 What is difference between useState and useReducer hook?
 What is axios?

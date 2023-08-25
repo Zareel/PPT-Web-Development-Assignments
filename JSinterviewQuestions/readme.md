@@ -23,21 +23,21 @@ Ans: Every variable has a datatype that tells what kind of data is being stored 
 
 # Q2. What is difference between == and === operators?
 
-- `==` is also known as loose equality operator which is mainly used to compare two values in both sides and then return true or false.
+- `==` is known as loose equality operator which is mainly used to compare two values in both sides and then return true or false.
 - `===` is also known as strict equality operator. It compares both the values and datatypes
 
 <br>
 
 # Q3. Explain the implicit type coercion in javascript.
 
-- implicit type coercion: it is the automatic or implicit conversion of values from one data type to another data type. eg: `==` operator compares two values only after converting them in to a common type which is known as `type coersion`. In other words `type coersion` means
+- implicit type coercion: it is the automatic or implicit conversion of values from one data type to another data type. eg: `==` operator compares two values only after converting them in to a common type which is known as `type coersion`.
 
 <br>
 
 # Q4. What is a NaN property in JS?
 
 Ans: The NaN global property is a value representing Not-A-Number
-The operations that return NaN
+The operations that return NaN are:-
 
 - Failed number conversion
 - Math operation where the result is not a real number
