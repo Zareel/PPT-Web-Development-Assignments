@@ -1,5 +1,26 @@
-Explain the difference between frontend and backend development?
-What is the difference between JavaScript and Node.js?
+# 1. Explain the difference between frontend and backend development?
+
+- `Backend development` refers to the development of the data storage and communication between applications's database and browser while `Frontend development` refers to the development of visual elements of a website or application that are visible to the user
+- `Backend development` is focused on performance, maintenance and scalability while `Frontend development` is more customer focused
+- `Backend developers` work on server-side web application, logic and integration while `Frontend develpoers` work on implementing visual components on a website
+
+# 2. What is the difference between JavaScript and Node.js?
+
+- `Javascript` is a dynamic programming language that's used for web development, game development and lot more
+- `nodeJS` is an open source server environment. It is built on Chrome's V8 javascript engine for executing javascript code outside of a browser. It provides asynchronous, cross platform runtime environment for building server-side applications using Javascript
+
+# 3. What is expressJS?
+
+Express is a small framework that works on top of nodejs webserver functionality to simplify it's API's and add new helpful features
+
+# 4. What is axios?
+
+Axios is a popular library which is mainly used to send asychronous HTTP requests and fetch data
+
+# 5. What is req and res in nodejs?
+
+As soon as you make a web request on the web, the web starts analysing the request,process it, may be grab some data from the database, finally gets you some response. Some times it gets you some status code
+
 What is the difference between asynchronous and synchronous functions?
 What is NodeJS? Explain in detail the working of NodeJS.
 What is NPM?
@@ -27,7 +48,7 @@ What is a Primary Key, Foreign Key and difference between them?
 What is a Join? List its different types.
 What is an Index? Explain its different types.
 What is a Query?
-List the different types of relationships in SQL.
+ist the different types of relationships in SQL.
 What is Normalization and Denormalization?
 What are TRUNCATE, DELETE, and DROP statements and differences between them?
 How do you handle error and exception handling in node/express application?
