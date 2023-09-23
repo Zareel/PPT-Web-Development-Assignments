@@ -52,6 +52,14 @@ In JavaScript when a function is called, the arguments can be passed in two ways
   Primitive datatypes are passed by value and non primitive data types are passed by reference
   Primitive values are stored on the stack and non primitive values are stored in heap
 
+  ## 1. Everythig in javascrip is an object prove
+
+  Answer is prototype. All javascript programming contrains inherits properties and methods from a prototype. whenever we create array, function, class etc, JavaScript takes the Prototype methods of it and creates an object named **proto** and attaches it with the object.
+
+for eg.
+creata an array = [1,2,3,4,] in your browser console and typs array.**proto** then enter. then you can see that array was able to access methods like push, length, etc. That means, any array that you create in JavaScript will inherit values from Array.prototype.
+If you observe the last parameter it is prototype: object which means array's prototype was derived from object's prototype. Functions, classes arrays etc are derived from object's prototype. Thus every thind in javascript is an object
+
 What do you mean by strict mode in JavaScript?
 What is Hoisting?
 What is Temporal Dead Zone?
