@@ -265,12 +265,79 @@ Middleware is nothing but software that exists between operating systems and app
 
 ---
 
-What are the different types of HTTP requests?
-Explain about different HTTP status codes in detail.
-Difference between SQL and NoSQL databases.
-What is MongoDB and its advantages and disadvantages?
-How would you connect a MongoDB database to Node.js?
-What is mongoose and why use it?
+# 22-9-2023
+
+# Saturday
+
+## 1. What are the different types of HTTP requests?
+
+- GET
+- PUT
+- POST
+- DELETE
+
+## 2. Explain about different HTTP status codes in detail.
+
+- HTTP status code indecate whether a specific http request has been successfully completed
+- 100 to 199 => informational response
+- 200 to 299 => successful response
+- 300 to 399 => redirectional messages
+- 400 to 499 => client error responses
+- 500 to 599 => server error responses
+
+---
+
+- 200 => ok
+- 300 => multiple choices
+- 301 => moved permenantly
+- 302 => found
+- 304 => not modified
+- 307 => temporary redirect
+- 400 => bad request
+- 401 => unauthorized
+- 403 => forbidden
+- 404 => not found
+- 410 => gone
+- 500 => internal server error
+- 501 => not implemented
+- 503 => service unavailable
+- 550 => permission denied
+
+# 3. What is MongoDB and its advantages and disadvantages?
+
+- MongoDB is the most popular NoSQL database. It is an open-sourse, document-oriented database that is designed to store large scale of data and also allowes you work with that data efficiently
+- Advantages
+
+1. flexibility
+2. scalability
+3. rich query language
+4. integration with big data tools
+5. strong community and eco-system
+
+- disadvantage
+
+1. limited transaction support
+2. no standard SQL- style joins
+3. higer storage and memory usage
+4. complex standard cluster management
+5. less mature ecosystem
+
+## 4. How would you connect a MongoDB database to Node.js?
+
+do it
+
+## 5. What is mongoose and why use it?
+
+- Mongoose module is one of the most powerfull external module of nodeJS. It is a mongoDB ODM(Object Database Modelling) that is used to traslate the code and it's representation from MongoDB to node server
+
+- why it is used
+
+1. Collection validation of MongoDB database can be done easily
+2. Predefined structure can be implemented on the collection
+3. Contrains can be applied to documents of collections using Mongoose
+
+---
+
 What is RDBMS? How is it different from DBMS?
 What are Constraints in SQL?
 What is a Primary Key, Foreign Key and difference between them?
