@@ -338,6 +338,51 @@ do it
 
 ---
 
+# 24-9-2023
+
+# Sunday
+
+## 1. What is meant by web development?
+
+Web development is the work involved in developing a website for the internet
+
+## 2. Explain the difference between frontend and backend development?
+
+- `Backend development` refers to the development of the data storage and communication between app's database and browser
+- `Frontend development` refers to the development of visual elements of a website or application that are visible to the user
+- `Backend development` is focused on performance, maintenance and scalability
+- `Frontend development` is more customer focused
+- `Backend developers` work on server-side web application, logic and integration
+- `Frontend develpoers` work on implementing visual components on a website
+
+## 3. What is internet?
+
+Internet is the global system of interconnected computer network that uses the internet protocol suite(IP) to communicate between networks and devices
+
+## 4. How does the internet work?
+
+- The actual working of internet takes place with the help of clients and servers.
+- Here the client is the laptop that is directly connected to the internet and servers are the computers that is connected indirectly to the internet
+- Servers are large computers having all the websites stord in it
+- These servers are connected to the internet with the help of IP address
+
+## 5. What is IP address?
+
+- IP address stands for Internet Protocol Address.
+- Every PC/ local computer is havine IP address
+- This IP address is provided by Internet Service Provider (ISP)
+- Every laptop and desktop has its own unique IP address for identification
+
+## 6. what is ISP?
+
+ISP stands for Internet Service Provider which is a term used to refer to a company that provides internet access to people who pay the company or subscribe to the company for the same.
+
+## 7. WWW full form?
+
+- World Wide Web
+
+---
+
 What is RDBMS? How is it different from DBMS?
 What are Constraints in SQL?
 What is a Primary Key, Foreign Key and difference between them?

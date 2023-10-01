@@ -1,4 +1,40 @@
-# Q1. What is Primitive and Non-primitive data type in JS? or What is difference between primitive and non-primitive data types? or What is difference between null and undefined data types?
+# 26-9-2023
+
+# Tuesday
+
+## 1. How JavaScript works?
+
+Javascript need a cirtain tool or software to convert js code to convert into machine understandable code. The browser comes up with the compoler which can turn your js code into the executable code
+There is some compiler there which can run the js code such as V8 engines, spider monkey etc
+These engines are just like you install some compilers for c++ and you can run the code
+NodeJS is such one implementation which can convert your stand alone javascript code so that you don't always have to attach your js code to html and hit a reload every single time
+
+## ECMAscript
+
+- Europian Computer Manifacturing Association
+
+## 2. ES6
+
+- It is language specification means guidelines to follow
+
+## 3. varibales
+
+- declaring a variable is reserving some space in the memory
+
+## 4. datatypes
+
+- string
+- number
+- boolean
+- undefined
+- null
+- symbol
+- bigint
+- object
+
+declare a variable using let keyword
+
+## 5. What is Primitive and Non-primitive data type in JS? or What is difference between primitive and non-primitive data types? or What is difference between null and undefined data types?
 
 Ans: Every variable has a datatype that tells what kind of data is being stored in the variable. There are two types of data types in JavaScript
 
@@ -21,20 +57,20 @@ Ans: Every variable has a datatype that tells what kind of data is being stored 
 
 <br>
 
-# Q2. What is difference between == and === operators?
+## 6. What is difference between == and === operators?
 
 - `==` is known as loose equality operator which is mainly used to compare two values in both sides and then return true or false.
 - `===` is also known as strict equality operator. It compares both the values and datatypes
 
 <br>
 
-# Q3. Explain the implicit type coercion in javascript.
+## 7. Explain the implicit type coercion in javascript.
 
 - implicit type coercion: it is the automatic or implicit conversion of values from one data type to another data type. eg: `==` operator compares two values only after converting them in to a common type which is known as `type coersion`.
 
 <br>
 
-# Q4. What is a NaN property in JS?
+## 8. What is a NaN property in JS?
 
 Ans: The NaN global property is a value representing Not-A-Number
 The operations that return NaN are:-
@@ -43,7 +79,7 @@ The operations that return NaN are:-
 - Math operation where the result is not a real number
 - Where the invalid value is to be represented as a number
 
-# Q5. Explain pass by value and pass by reference in JavaScript.
+## 9. Explain pass by value and pass by reference in JavaScript.
 
 In JavaScript when a function is called, the arguments can be passed in two ways, either
 
@@ -52,7 +88,7 @@ In JavaScript when a function is called, the arguments can be passed in two ways
   Primitive datatypes are passed by value and non primitive data types are passed by reference
   Primitive values are stored on the stack and non primitive values are stored in heap
 
-  ## 1. Everythig in javascrip is an object prove
+  ## 10. Everythig in javascrip is an object prove
 
   Answer is prototype. All javascript programming contrains inherits properties and methods from a prototype. whenever we create array, function, class etc, JavaScript takes the Prototype methods of it and creates an object named **proto** and attaches it with the object.
 
@@ -60,8 +96,49 @@ for eg.
 creata an array = [1,2,3,4,] in your browser console and typs array.**proto** then enter. then you can see that array was able to access methods like push, length, etc. That means, any array that you create in JavaScript will inherit values from Array.prototype.
 If you observe the last parameter it is prototype: object which means array's prototype was derived from object's prototype. Functions, classes arrays etc are derived from object's prototype. Thus every thind in javascript is an object
 
-What do you mean by strict mode in JavaScript?
-What is Hoisting?
+---
+
+# 1-October-2023
+
+# Sunday
+
+## 1. Explain context in JavaScript
+
+- JavaScript context refers to the object or environment thet a function or code is exectuted in
+- When the code is executed by node the global context(window) is not available. But there is always a global context available to us in the browser as well as in the node but it can be having different name still it is there
+- That context is always responsible so that once the function is being registered, that function is wrapped up
+
+## 2. explain two types of context
+
+- The two type of contexts are global context and execution context
+- As soon as we write code, context kicks in, collecting information about the code. This global context is window object and it is tied mojorly on the browser
+- the execution context keeps on stacking one on the top of the other
+- these exectuion context is not only with the funcions and thay happens with every line of code that you want to execute
+- When I write a function code global context kicks in and when i call or invoke the function execution context start woking and it will be responsible for running the function
+- if the execution is of one line, it will execute and goes away from the stack and if it is a function, the entire big execution context will come and once the execution is being done then it goes away from the stack
+- the execution stack which is at the top is the only thing the program knows about
+- it cannot actually dig below to find out any line of code. It can only execute the code inside it's entire context
+
+## 3. features of execution context
+
+- variable object
+- scope chain
+- `this` keyword
+
+## 4. mention the two rules that you have to follow when there is execution context
+
+- function declarations are scanned and made available
+  (we are able to call the function first and then to define the function. This is possible because of the global context, as it scanns the entire code and and make the entire code available to us if it is declared.)
+- varible declrations are scanned and mede undefined
+
+## 5. What do you mean by strict mode in JavaScript?
+
+- Strict Mode was a new feature in ECMAScript 5 that allows you to place a program, or a function, in a “strict” operating context.
+- This strict context prevents certain actions from being taken and throws more exceptions.
+
+---
+
+What is hoisting
 What is Temporal Dead Zone?
 What is difference between let, var and const?
 Why do we use debugger word in javascript?
