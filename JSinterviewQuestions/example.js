@@ -89,35 +89,85 @@ const result = getUserRole("Shine", "user");
 console.log(result);
 */
 
-//? Global context
+//? Scope chaining
 /*
-function tipper(a) {
-  const bill = parseInt(a);
-  console.log(bill + 5);
+const name = "Shon1";
+console.log(name);
+
+function sayName() {
+  const name = "Shon2";
+  console.log(name);
+
+  function sayNameAgain() {
+    const name = "Shon3"
+    console.log(name);
+  }
+  sayNameAgain();
 }
-tipper("5");
-*/
-// parseInt converts string to number
-/*
-console.log(parseInt("5"));
-console.log("5");
-
-const converToNumber = parseInt("5");
-console.log(typeof converToNumber);
-
-console.log(firtName);
-
-let firtName = "Zareel";
+sayName();
 */
 
-console.log(firstName);
+//?array
+/*
+const numbers = [0, 10, 20, 30, 40, 50];
+const letters = ["a", "b", "c", "d", "e"];
+const countries = ["USA", "UK", "Iceland", "Switzerland", "Turkey"];
 
-var firstName = "Shon";
+const isLargerNumber = (item) => item > 20;
 
-function sayMe() {
-  const firstName = "Zareel";
-  console.log(firstName);
+console.log(numbers.findIndex(isLargerNumber));
+*/
+
+//? 144 callback and arrowfunction introduction in array
+/*
+
+function isEven(number) {
+  if (number % 2 === 0) {
+    return true;
+  } else {
+    return false;
+  }
 }
-sayMe();
+console.log(isEven(12));
+*/
+/*
+const isEven = (value) => {
+  if (value % 2 === 0) {
+    return true;
+  } else {
+    return false;
+  }
+};
+console.log(isEven(98));
 
-console.log(firstName);
+const arr = [25, 36, 49, 78, 101];
+console.log(arr.every(isEven));
+*/
+//* create a function to check if the given number is odd or not
+
+const isOdd = (number) => {
+  if (number % 2 !== 0) {
+    return true;
+  } else {
+    return false;
+  }
+};
+console.log(isOdd(101));
+
+const arr = [78, 59, 14, 22, 203];
+const result = arr.every((item) => {
+  return item % 2 === 0;
+});
+console.log(result);
+
+//every() is an array method the checks all the items in the array
+
+//? 145 fill and filter in array
+//? 146 slice and splice in array
+//? 147 object in Javascript
+//? 148 methods and objects in javascript
+//? 149 forloop basics in javascript
+//? 150 while and dowhile loop in javascaript
+//? 151 forEach loop in javascript
+//? 152 for in and for of loop in javascript
+//? 153 confusing part of this in javascript

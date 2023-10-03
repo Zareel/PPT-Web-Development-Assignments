@@ -137,7 +137,7 @@ If you observe the last parameter it is prototype: object which means array's pr
 - This strict context prevents certain actions from being taken and throws more exceptions.
 
 ---
-
+what is scope chining
 What is hoisting
 What is Temporal Dead Zone?
 What is difference between let, var and const?
