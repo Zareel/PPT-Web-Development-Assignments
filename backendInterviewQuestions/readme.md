@@ -383,17 +383,58 @@ ISP stands for Internet Service Provider which is a term used to refer to a comp
 
 ---
 
-What is RDBMS? How is it different from DBMS?
-What are Constraints in SQL?
-What is a Primary Key, Foreign Key and difference between them?
-What is a Join? List its different types.
-What is an Index? Explain its different types.
-What is a Query?
-ist the different types of relationships in SQL.
-What is Normalization and Denormalization?
-What are TRUNCATE, DELETE, and DROP statements and differences between them?
-How do you handle error and exception handling in node/express application?
-How do you handle input validation and data sanitization in a backend application?
+# 6-10-2023
+
+# Friday
+
+## 1. What is RDBMS? How is it different from DBMS?
+
+- DMBS => Database Management System is a software that is used to define, create and maintain database and provides controlled access to the data
+- RDMBS => Relational Database Management system => It deals with relations as well as various key constains
+
+## 2. What is a Query?
+
+- In standard English, a query means a request for information.
+- In computer programming, it refers to the same thing, except the information is retrieved from a database.
+- However, writing a query requires a set of pre-defined code to make the database understand the instruction.
+- This concept is also known as the query language
+
+?
+
+## 3. How do you handle error and exception handling in node/express application?
+
+- Use the try- catch mechanism to wrap asynchornous code in a try block and specify a catch block for any exeptions thrown
+- Employ middleware to handle exeptions
+- Create exceptions using the throw keyword inside the application.
+- Handle errors with the default error handler provided by Express.
+- Create custom error handlers to override the default error handling behavior.
+
+## 4. What do you meant by input validation and data sanitization in a backend application?
+
+- validation checks whether an input complies with specific policies and constrains
+- if there is no validation nothing prevents an attacker from exploiting the form by entering unexpected inputs
+- To prevent such a bad situation, developers must add a validation step where the data is inspected before proceeding
+
+- Sanitizing consists of removing any unsafe characters from user inputs, and validating will check to see if the data is in the expected format and type.
+- Sanitizing modifies the input to ensure it’s in a valid format for display, or before insertion in a database.
+
+## 5. How do you handle input validation and data sanitization in a backend application?
+
+### Data Validation
+
+- input filtering: Input Filtering: We employ strict input filtering to remove any potentially malicious characters or code from user inputs. Input Filtering: We employ strict input filtering to remove any potentially malicious characters or code from user inputs.
+- Data Type Checking: We validate the data against expected data types to ensure that the format is correct. For example, if a field expects an email address, we use regular expressions to validate the input against the email pattern.
+- Regular Expressions: Regular expressions allow us to define specific patterns for valid data. We use them extensively for validating complex data formats such as phone numbers, URLs, or credit card numbers.
+- Server-Side Validation: Even if client-side validation is implemented, it’s essential to have robust server-side validation as well. This ensures that the data received from clients is double-checked before further processing.
+
+### Data Sanitization
+
+- Escaping: Escaping involves modifying user input in a way that renders any special characters harmless. For example, we escape characters like quotes or backslashes to prevent SQL injections or other code injection attacks.
+- Encoding: Encoding converts special characters into their respective HTML entities, ensuring that they are displayed properly without causing any unintended behavior. This helps prevent script injection attacks and protects against XSS vulnerabilities
+-
+
+---
+
 How do you handle cross-origin resource sharing (CORS) in a backend application?
 What are the key considerations when designing a RESTful API?
 What are the differences between stateless and stateful communication in a backend system?
