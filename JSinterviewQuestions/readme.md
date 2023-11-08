@@ -137,6 +137,8 @@ If you observe the last parameter it is prototype: object which means array's pr
 - This strict context prevents certain actions from being taken and throws more exceptions.
 
 ---
+
+When you declare a variable with the var keyword, it is declared globally, or locally if declared inside a function.
 what is scope chining
 What is hoisting
 What is Temporal Dead Zone?

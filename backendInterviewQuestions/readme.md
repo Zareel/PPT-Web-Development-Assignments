@@ -37,7 +37,7 @@ Axios is a popular library which is mainly used to send asychronous HTTP request
 
 ## 2. What is NodeJS? Explain in detail the working of NodeJS.
 
-- `nodeJS` is an open source server environment. It is built on Chrome's V8 javascript engine for executing javascript code outside of a browser. It provides asynchronous, cross platform runtime environment for building server-side applications using Javascript
+- `nodeJS` is an open source, cross platform, server side runtime environment for building server-side applications using javascript. It is built on Chrome's V8 javascript engine for executing javascript code outside of a browser.
 
 ---
 
@@ -332,9 +332,10 @@ do it
 
 - why it is used
 
-1. Collection validation of MongoDB database can be done easily
-2. Predefined structure can be implemented on the collection
-3. Contrains can be applied to documents of collections using Mongoose
+1. MongoDB stores data in a flexible `json like` documents
+2. The document model `maps to the objects` in your application code making data easy to work with
+3. Collection validation of MongoDB database can be done easily
+4. MongoDB is a distributed database at it's core, so `high availability, horizontal scaling` and geaographic distribution are built in and easy to use
 
 ---
 
@@ -431,13 +432,40 @@ ISP stands for Internet Service Provider which is a term used to refer to a comp
 
 - Escaping: Escaping involves modifying user input in a way that renders any special characters harmless. For example, we escape characters like quotes or backslashes to prevent SQL injections or other code injection attacks.
 - Encoding: Encoding converts special characters into their respective HTML entities, ensuring that they are displayed properly without causing any unintended behavior. This helps prevent script injection attacks and protects against XSS vulnerabilities
--
+- ***
+
+# 14-10-2023
+
+# Saturday
+
+### What is the server engine that MongoDB uses by defalut?
+
+and: WiredTiger Storage engine
+
+### How do you handle cross-origin resource sharing (CORS) in a backend application?
+
+Ans: Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources
+
+### What is rest api
+
+Ans:REST stands for Representational State Transfer. It is a software architectural style created by Roy Fielding in 2000 to guide the design of architecture for the web
+
+### What are the key considerations when designing a RESTful API?
+
+1. Use JSON as the Format for Sending and Receiving Data
+2. Use Nouns Instead of Verbs in Endpoints. GET, POST, PUT, PATCH, and DELETE are the commonest HTTP verbs. There are also others such as COPY, PURGE, LINK, UNLINK, and so on.
+3. Use Status Codes in Error Handling
+4. Be Clear with Versioning
+
+### What are the differences between stateless and stateful communication in a backend system?
+
+Ans: Network Protocols for web browser and servers are categorized into two types: Stateless Protocol, and Stateful protocol.
+
+- Stateless communication: Stateless Protocols are the type of network protocols in which Client send request to the server and server response back according to current state
+- statefull communication: In Stateful Protocol If client send a request to the server then it expects some kind of response, if it does not get any response then it resend the request
 
 ---
 
-How do you handle cross-origin resource sharing (CORS) in a backend application?
-What are the key considerations when designing a RESTful API?
-What are the differences between stateless and stateful communication in a backend system?
 How do you handle versioning in a backend API?
 What is the purpose of rate limiting and the process of implementing rate limiting to prevent abuse or excessive API usage.
 What is the role of web sockets in real-time communication in a backend application?

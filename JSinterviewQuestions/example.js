@@ -144,7 +144,7 @@ const arr = [25, 36, 49, 78, 101];
 console.log(arr.every(isEven));
 */
 //* create a function to check if the given number is odd or not
-
+/*
 const isOdd = (number) => {
   if (number % 2 !== 0) {
     return true;
@@ -159,7 +159,7 @@ const result = arr.every((item) => {
   return item % 2 === 0;
 });
 console.log(result);
-
+*/
 //every() is an array method the checks all the items in the array
 
 //? 145 fill and filter in array
@@ -171,3 +171,72 @@ console.log(result);
 //? 151 forEach loop in javascript
 //? 152 for in and for of loop in javascript
 //? 153 confusing part of this in javascript
+/*
+let arr = [];
+
+for (let i = 0; i < 3; i++) arr.push(i)
+  console.log(arr);
+console.log(i);
+*/
+
+/*
+let obj = {
+  name: "Zar",
+  age: 44,
+};
+obj.place = "Kochi";
+console.log(obj);
+*/
+/*
+var printNumberTwo;
+for (let i = 0; i < 5; i++) {
+  if (i === 2) {
+    printNumberTwo = function () {
+      return i;
+    };
+  }
+}
+console.log(printNumberTwo());
+console.log(i);
+*/
+/*
+const s = [5, 7, 2];
+s.pop();
+s.unshift(2);
+console.log(s);
+*/
+/*
+let obj = {
+  name: "Zareel",
+  nature: "awesome",
+};
+Object.freeze(obj);
+obj.name = "Zar";
+obj.newProp = "new";
+console.log(obj);
+*/
+
+const zareel = {
+  firstName: "Shon",
+  lastName: "Kalam",
+  role: "admin",
+  courseCount: 2,
+  getInfo: function () {
+    console.log(`
+    firstName: ${this.firstName},
+    lastName: ${this.lastName},
+    role: ${this.role},
+    courseCount: ${this.courseCount}
+    `);
+  },
+};
+
+const shine = {
+  firstName: "Shine",
+  lastName: "Kalam",
+  role: "owner",
+  courseCount: 3,
+};
+
+let binding = zareel.getInfo.bind(shine);
+console.log(binding());
