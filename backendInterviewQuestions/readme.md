@@ -434,28 +434,27 @@ ISP stands for Internet Service Provider which is a term used to refer to a comp
 - Encoding: Encoding converts special characters into their respective HTML entities, ensuring that they are displayed properly without causing any unintended behavior. This helps prevent script injection attacks and protects against XSS vulnerabilities
 - ***
 
-# 14-10-2023
+# 8-11-2023
 
-# Saturday
+# Wednessday
 
 ### What is the server engine that MongoDB uses by defalut?
 
 and: WiredTiger Storage engine
 
-### How do you handle cross-origin resource sharing (CORS) in a backend application?
+### What is cross-origin resource sharing (CORS) in a backend application?
 
-Ans: Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources
+Ans: Cross-origin resource sharing (CORS) is a mechanism for integrating applications. CORS defines a way for client web applications that are loaded in one domain to interact with resources in a different domain
 
 ### What is rest api
 
-Ans:REST stands for Representational State Transfer. It is a software architectural style created by Roy Fielding in 2000 to guide the design of architecture for the web
+Ans:REST stands for Representational State Transfer. It is a client-service architecture that is based on a request/response design. REST APIs are primarily used to access and work with data.
 
 ### What are the key considerations when designing a RESTful API?
 
 1. Use JSON as the Format for Sending and Receiving Data
-2. Use Nouns Instead of Verbs in Endpoints. GET, POST, PUT, PATCH, and DELETE are the commonest HTTP verbs. There are also others such as COPY, PURGE, LINK, UNLINK, and so on.
-3. Use Status Codes in Error Handling
-4. Be Clear with Versioning
+2. Use Status Codes in Error Handling
+3. Be Clear with Versioning
 
 ### What are the differences between stateless and stateful communication in a backend system?
 
