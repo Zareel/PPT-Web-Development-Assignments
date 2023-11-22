@@ -465,7 +465,50 @@ Ans: Network Protocols for web browser and servers are categorized into two type
 
 ---
 
-How do you handle versioning in a backend API?
+# 22-11-23
+
+# Wednessday
+
+### 1. What is API full form? What is Interface?
+
+- API is Application Programming Interface
+- Interface is the shared boundary to exchange information
+
+### 2. What is API versioning? Why it is needed?
+
+Ans:
+
+- API versioning is the practice of transparently managing the changes to your API. It is the effective communication around changes to our API, so consumers know what to expect from it. You are delivering data to public in some fasion and you need to communicate when you change the way that data is delivered
+- API versioning is required because it ensures stability and reliability
+- With APIs, somethins as simple as changing a property name from `productId` to `productID` can break thing for consumers. Versioning is the solution for this
+
+### 3. What is data contract and breaking changes?
+
+- Data Contract => Primary building block of your API. IT is an agreement on the shape and general content of the request-response data
+- Breaking Changes => Reveals why versioning is needed. Any change to your API contract that forces the consumer to also make a change is the breaking change
+
+### 4. Give Examples for breaking changes
+
+Ans: Breaking changes primarily fit into the following categories
+
+1. Changing the request- response format (from XML to JSON)
+2. Changing propery name (from `name` to `productName`)
+3. Changing data type of property (from `String` to `Number`)
+4. Adding a required fild on the request (a new required header or property in a request body)
+5. Removing a property on the response (removing description from a product)
+
+### 5. How do you handle versioning in a backend API?
+
+Ans: Below are the 5 best practices for API versioning
+
+1. Enable backwards compatibility.
+2. Refresh API documentation to reflect new versions.
+3. Adapt API versioning to business requirements.
+4. Put API security considerations at the forefront.
+5. Set your API versions up to scale.
+
+---
+
 What is the purpose of rate limiting and the process of implementing rate limiting to prevent abuse or excessive API usage.
 What is the role of web sockets in real-time communication in a backend application?
 How does caching improve the performance of a backend application?
