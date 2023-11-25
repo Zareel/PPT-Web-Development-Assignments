@@ -478,9 +478,9 @@ Ans: Network Protocols for web browser and servers are categorized into two type
 
 Ans:
 
-- API versioning is the practice of transparently managing the changes to your API. It is the effective communication around changes to our API, so consumers know what to expect from it. You are delivering data to public in some fasion and you need to communicate when you change the way that data is delivered
+- API versioning is the practice of transparently managing the changes to your API, so consumers know what to expect from it. You are delivering data to public in some fasion and you need to communicate when you change the way that data is delivered
 - API versioning is required because it ensures stability and reliability
-- With APIs, somethins as simple as changing a property name from `productId` to `productID` can break thing for consumers. Versioning is the solution for this
+- With APIs, somethings as simple as changing a property name from `productId` to `productID` can break things for consumers. Versioning is the solution for this
 
 ### 3. What is data contract and breaking changes?
 
@@ -492,7 +492,7 @@ Ans:
 Ans: Breaking changes primarily fit into the following categories
 
 1. Changing the request- response format (from XML to JSON)
-2. Changing propery name (from `name` to `productName`)
+2. Changing property name (from `name` to `productName`)
 3. Changing data type of property (from `String` to `Number`)
 4. Adding a required fild on the request (a new required header or property in a request body)
 5. Removing a property on the response (removing description from a product)
@@ -509,7 +509,33 @@ Ans: Below are the 5 best practices for API versioning
 
 ---
 
-What is the purpose of rate limiting and the process of implementing rate limiting to prevent abuse or excessive API usage.
+# 25-11-2023
+
+# Saturday
+
+### 1. What is rate limiting and what is the purpose of it?
+
+Ans:
+
+- Rate limit is the maximum number of calls you want to allow in a particular time interval
+- Setting rate limit enables you to manage the network traffic for your APIs and for specific operations within your APIs
+
+### 2. Explain the rate limiting methods for preventing abuse and exessive API usage?
+
+- to prevent abuse : `IP throttling`: This rate-limiting method works by limiting the number of requests a single IP address can send. When the limit is reached, any additional requests from that IP are denied until the limit has been reset. This method is best for protecting against automated bots and malicious actors sending unauthorized requests.
+
+- to prevent exessive API usage: `Token bucket`: This rate-limiting method works by restricting the number of requests a user can make in a given amount of time by assigning each user a “token bucket” of requests they are allowed to send.When a user sends a request, it is deducted from the token bucket and replenished when the period ends. This method is best for protecting against high-volume requests that could otherwise overwhelm the system.
+
+### 3. mention the methods/process of implementing rate limit?
+
+1. token bucket: resisting the number of requests a user can make in a given amount of time by assigning each user a “token bucket” of requests they are allowed to send.
+2. Leaky bucket: When a request is sent, it deducts from the bucket, and if too many requests are sent in a given period of time, the bucket will leak, resulting in requests being denied.
+3. Fixed window counter: This rate-limiting method works by limiting the number of requests a user can send in a fixed time window (such as a day or hour). When the time window has elapsed, the counter resets, and the user can continue to send requests.
+4. sliding window counter: This rate-limiting method works by limiting the number of requests a user can send in a sliding time window (such as a minute). When the time window has elapsed, the counter is reset based on the time passed, and any additional requests are denied.
+5. IP throttling: This rate-limiting method works by limiting the number of requests a single IP address can send. When the limit is reached, any additional requests from that IP are denied until the limit has been reset.
+
+---
+
 What is the role of web sockets in real-time communication in a backend application?
 How does caching improve the performance of a backend application?
 Describe the process of implementing a caching strategy for a backend application.
