@@ -497,16 +497,6 @@ Ans: Breaking changes primarily fit into the following categories
 4. Adding a required fild on the request (a new required header or property in a request body)
 5. Removing a property on the response (removing description from a product)
 
-### 5. How do you handle versioning in a backend API?
-
-Ans: Below are the 5 best practices for API versioning
-
-1. Enable backwards compatibility.
-2. Refresh API documentation to reflect new versions.
-3. Adapt API versioning to business requirements.
-4. Put API security considerations at the forefront.
-5. Set your API versions up to scale.
-
 ---
 
 # 25-11-2023
@@ -517,8 +507,9 @@ Ans: Below are the 5 best practices for API versioning
 
 Ans:
 
-- Rate limit is the maximum number of calls you want to allow in a particular time interval
-- Setting rate limit enables you to manage the network traffic for your APIs and for specific operations within your APIs
+- Rate limit is the maximum number of API calls you want to allow in a particular time interval
+- API rate limiting exists to protect both the stability and performance of an API.
+- Rate limiting ensures that the API isn't overwhelmed with requests from users which could lead to downtime or slow responses.
 
 ### 2. Explain the rate limiting methods for preventing abuse and exessive API usage?
 
@@ -528,19 +519,46 @@ Ans:
 
 ### 3. mention the methods/process of implementing rate limit?
 
-1. token bucket: resisting the number of requests a user can make in a given amount of time by assigning each user a “token bucket” of requests they are allowed to send.
-2. Leaky bucket: When a request is sent, it deducts from the bucket, and if too many requests are sent in a given period of time, the bucket will leak, resulting in requests being denied.
-3. Fixed window counter: This rate-limiting method works by limiting the number of requests a user can send in a fixed time window (such as a day or hour). When the time window has elapsed, the counter resets, and the user can continue to send requests.
-4. sliding window counter: This rate-limiting method works by limiting the number of requests a user can send in a sliding time window (such as a minute). When the time window has elapsed, the counter is reset based on the time passed, and any additional requests are denied.
-5. IP throttling: This rate-limiting method works by limiting the number of requests a single IP address can send. When the limit is reached, any additional requests from that IP are denied until the limit has been reset.
+1. `token bucket`: resisting the number of requests a user can make in a given amount of time by assigning each user a “token bucket” of requests they are allowed to send.
+
+2. `IP throttling`: This rate-limiting method works by limiting the number of requests a single IP address can send. When the limit is reached, any additional requests from that IP are denied until the limit has been reset.
 
 ---
 
-What is the role of web sockets in real-time communication in a backend application?
-How does caching improve the performance of a backend application?
-Describe the process of implementing a caching strategy for a backend application.
-How do you handle database transactions in a backend application?
-Explain the concept of data sharding and its benefits in scaling a backend database.
+# 27-11-23
+
+# Monday
+
+### 1. What is the role of web sockets in real-time communication in a backend application?
+
+- Web socket is a protocol that enables bidirectional communication between a web browser and a web server
+- unlike traditional HTTP which operates on a request- response model web socket establishes a persistent connection enabling efficient and continuous data exchange between the client and the server
+
+### 2. How does caching improve the performance of a backend application?
+
+- Caching is a technique used to store frequently accessed data in a temporary location, such as memory or disk, so that it can be quickly retrieved when needed.
+  By caching data, applications can reduce the number of requests made to the database or other external systems, resulting in faster response times and improved performance.
+- There are two main type of caching, client side caching and server side caching
+
+### 3. How do you handle database transactions in a backend application?
+
+- using try- catch block
+
+### 4. Explain the concept of data sharding
+
+- Whenever any application starts receiving a huge amount of concurrent requests and it sees significant growth of the users on the website it eventually needs to scale to handle the increasing amount of data or traffic on the website.
+- It’s difficult to predict the growth of the website in the future, and we can’t predict how long a website will maintain its popularity and growth.
+- So we need to scale our database dynamically and database sharding is the technique that can fulfill this job.
+- Sharding is a technique for horizontal scaling of databases, where the data is split across multiple database instances, or shards, to improve performance and reduce the impact of large amounts of data on a single database.
+
+### 5. What are the benefits of sharding in scaling a backend database.
+
+- Sharding improves the system’s capacity to handle large volumes of data and requests,
+- and increases performance by reducing the load on server.
+- Sharding also ensures that your data remains available even if one of the shards fails.
+
+---
+
 What is the role of indexing in a database and how does it impact performance?
 Describe the process of authentication and authorization in a backend application.
 How do you ensure the security of sensitive data in a backend system?
